@@ -1,0 +1,10 @@
+version: '2'
+services:
+ php:
+  image: reflet/debian8-php71
+  container_name: 'php'
+  ports:
+   - '9000:9000'
+  volumes:
+   - ./php.ini:/usr/local/etc/php/php.ini
+
