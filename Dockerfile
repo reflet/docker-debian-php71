@@ -68,6 +68,9 @@ RUN apt-get install -y libmemcached-dev && \
 pecl install memcached && \
 docker-php-ext-enable memcached
 
+# php options (ssmtp)
+RUN apt-get install -y ssmtp mailutils
+
 # cleanup
 RUN apt-get -y autoremove \
     && apt-get clean all \
