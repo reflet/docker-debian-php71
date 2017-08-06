@@ -1,4 +1,4 @@
-# DebianS - PHP7.1-fpm (日本環境） #
+# Debian8 - PHP7.1-fpm (日本環境） #
 
 オフィシャルのphp-fpmを元に日本環境の調整を行いました。
 
